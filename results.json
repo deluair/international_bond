@@ -1,0 +1,74 @@
+{
+  "analysis_date": "2025-09-15T11:28:56.730019",
+  "base_currency": "USD",
+  "bond_universe_size": 8,
+  "pricing_analysis": {
+    "bonds_analyzed": 8,
+    "pricing_method": "dcf",
+    "bond_prices": {
+      "US_10Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "US_5Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "DE_10Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "DE_5Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "JP_10Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "JP_5Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "UK_10Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      },
+      "UK_5Y_001": {
+        "price": 1000,
+        "yield": 0.025,
+        "duration": 5.0,
+        "convexity": 0.5
+      }
+    },
+    "yield_analysis": {},
+    "duration_analysis": {},
+    "convexity_analysis": {}
+  },
+  "relative_value_analysis": {},
+  "risk_analysis": {},
+  "policy_analysis": {},
+  "portfolio_optimization": {},
+  "recommendations": {},
+  "error": "CrossMarketAnalyzer.identify_arbitrage_opportunities() missing 1 required positional argument: 'fx_rates'",
+  "sample_portfolio": {
+    "portfolio_name": "Sample International Bond Portfolio",
+    "total_value": 800000.0,
+    "number_of_positions": 8,
+    "base_currency": "USD"
+  }
+}
